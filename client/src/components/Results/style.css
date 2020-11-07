@@ -1,0 +1,37 @@
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 85%;
+    margin-bottom: 2%;
+    padding: 2%;
+    display: flex;
+    text-align: left;
+    transition: 0.3s;
+}
+.card-body {
+    padding-left: 2%;
+}
+.card-title {
+    font-size: 110%;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+
+.bttn {
+    background-color: #1ea9c2;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    margin-left: 2px; 
+}
+.bttn:hover {
+    background-color: rgb(8, 105, 129);
+    color: rgb(207, 206, 206);
+    border: 2px solid rgb(207, 206, 206);
+}
