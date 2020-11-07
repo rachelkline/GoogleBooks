@@ -1,0 +1,42 @@
+.nav-wrap {
+    background-image: linear-gradient(to bottom right, #3b3b3b, #8f8c8c);
+    height: 80px;
+    margin: 0 auto;
+    z-index: 100;
+    position: fixed;
+    padding: 0;
+    width: 100%;
+    left: 0;
+}
+ul {
+    min-height: 48px;
+    text-align: right;   
+ }
+
+.nav {
+    margin: 0 auto;
+}
+
+.container {
+    margin-bottom: 0;
+}
+
+.nav-item {
+    font: 'opensans-bold','sans-serif';
+    display: inline-block;
+    margin-right: 35px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+ a:hover {
+    color: rgb(128, 179, 71);
+}
+
+.navbar-brand {
+    font-size: 35px;
+    margin-left: 15px;
+}
