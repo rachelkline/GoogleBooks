@@ -2,6 +2,7 @@ import React from "react";
 import SearchForm from "../components/SearchForm";
 import Results from "../components/Results";
 import API from "../utils/API";
+import "./style.css";
 
 class Search extends React.Component {
     state = {
@@ -52,7 +53,7 @@ class Search extends React.Component {
                     handleFormSubmit={this.handleFormSubmit}
                 />
                 <div className="container">
-                    <h2>Results</h2>
+                    <h2>results</h2>
                     <Results books={this.state.books} />
                 </div>
             </div>
